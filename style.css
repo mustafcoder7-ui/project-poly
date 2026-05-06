@@ -315,3 +315,42 @@ ul.contact li a {
 ul.contact li a:hover {
     background: #2d5f7a;
 }
+
+@media (max-width: 768px) {
+
+    /* Stack section 3 columns */
+    #section-3 .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-3 .column {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /* Footer columns stack */
+    #footer .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footer .column {
+        width: 90%;
+    }
+
+    /* Reduce icon size on mobile */
+    #footer .icon {
+        font-size: 2em;
+    }
+
+    /* Reduce padding for small screens */
+    .company-details {
+        padding: 2em 1em;
+    }
+
+    .copyright {
+        padding: 2em 1em;
+    }
+}
