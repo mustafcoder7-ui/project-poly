@@ -1,0 +1,317 @@
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container (centers content) */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* ===== HEADER ===== */
+header {
+    overflow: hidden;
+}
+
+/* Top header bar */
+#top-header {
+    height: 60px;
+}
+
+/* Logo */
+#logo {
+    float: left;
+    width: 30%;
+    height: 60px;
+}
+
+#logo img {
+    height: 50px;
+    padding: 5px 0;
+}
+
+/* Navigation menu */
+#menu {
+    float: right;
+    width: 70%;
+    height: 60px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    background: #0074D9;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 60px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hover effect */
+#menu li:hover a {
+    background: white;
+    color: #0074D9;
+}
+
+/* ===== HEADER IMAGE ===== */
+#header-image-menu {
+    position: relative;
+}
+
+#header-image-menu img {
+    width: 100%;
+    display: block;
+}
+
+/* Text on image */
+#image-text {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+}
+#welcome 
+{    overflow: hidden; 
+    width: 1000px; 
+    margin: 0px auto; 
+} 
+• Styling the title h1 tag: Give at top margin of 20px, padding of 
+20px and align its text to center.  
+/*Add below code to style.css*/ 
+ 
+#welcome .title{ 
+    margin-top: 20px; 
+    padding: 20px; 
+    text-align: center; 
+} 
+• Styling the p tag for sample text: Give it a margin from bottom of 
+40px and align its text to center.  
+/*Add below code to style.css*/ 
+ 
+#welcome p{ 
+    margin-bottom: 40px; 
+    text-align: center; 
+} 
+The complete CSS for styling the section 1 of the main layout is given 
+below 
+/**********************************/ 
+/* Styling Main content Section 1 */ 
+/**********************************/ 
+#welcome 
+{    overflow: hidden; 
+    width: 1000px; 
+    margin: 0px auto; 
+} 
+         
+#welcome .title{ 
+    margin-top: 20px; 
+padding: 20px; 
+text-align: center; 
+} 
+#welcome p{ 
+margin-bottom: 40px; 
+text-align: center; 
+} 
+
+#section-2{ 
+overflow: hidden; 
+margin-top: 5em; 
+padding-top: 1em; 
+border-top: 1px solid rgba(0, 0, 0, 0.2); 
+text-align: center; 
+} 
+
+.row #column1,  
+.row #column2, 
+.row #column3{ 
+float: left; 
+width: 320px; 
+padding: 80px 40px 80px 40px; 
+} 
+
+.column-title h2{ 
+margin: 1em 0em; 
+font-size: 1.6em; 
+font-weight: 700; 
+} 
+
+.button { 
+text-decoration: none; 
+text-align: center; 
+display: inline-block; 
+font-size: 16px; 
+background-color: #4CAF50;  
+color: white;  
+border: 2px solid #4CAF50; 
+padding: 16px 32px; 
+margin: 4px 2px; -webkit-transition-duration: 0.4s; /* Safari */ 
+transition-duration: 0.4s; 
+cursor: pointer; 
+} 
+.button:hover { 
+background-color: white; 
+color: #4CAF50; 
+}
+
+
+
+/* Section 3 */
+#section-3 {
+    padding-top: 5em;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Row container */
+#section-3 .row {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Columns */
+#section-3 .column {
+    width: 22%;
+    margin: 1%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Image */
+#section-3 .column img {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+/* Title */
+#section-3 .img-title {
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0.5em 0;
+}
+
+/* Paragraph */
+#section-3 p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.5;
+}
+
+/* Button */
+#section-3 .button {
+  text-decoration: none; 
+text-align: center; 
+display: inline-block; 
+font-size: 16px; 
+background-color: #4CAF50;  
+color: white;  
+border: 2px solid #4CAF50; 
+padding: 16px 32px; 
+margin: 4px 2px; -webkit-transition-duration: 0.4s; /* Safari */ 
+transition-duration: 0.4s; 
+cursor: pointer;
+}
+
+#section-3 .button:hover {
+    background-color: white; 
+color: #4CAF50;
+}
+
+
+
+/* Company Details */
+.company-details {
+    overflow: hidden;
+    padding: 3em 1em;
+    background: #E3F0F7;
+    text-align: center;
+    margin-top: 5em;
+}
+
+/* Row layout */
+#footer .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+/* Columns */
+#footer #col1,
+#footer #col2,
+#footer #col3 {
+    flex: 1 1 250px;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Icon (FIXED: now class instead of id) */
+#footer .icon {
+    display: block;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Copyright */
+.copyright {
+    overflow: hidden;
+    padding: 3em 1em;
+    border-top: 5px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    background: #4CAF50;
+}
+
+.copyright p {
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Social icons */
+ul.contact {
+    margin: 0;
+    padding: 2em 0 0 0;
+    list-style: none;
+}
+
+ul.contact li {
+    display: inline-block;
+    margin: 0 0.3em;
+}
+
+ul.contact li a {
+    color: #fff;
+    display: inline-block;
+    background: #3b7ea1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+ul.contact li a:hover {
+    background: #2d5f7a;
+}
